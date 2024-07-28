@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+
+}
+
+
+header {
+  background-color: #b0b303; /* Color de fondo del encabezado */
+  color: #fff; /* Color del texto en el encabezado */
+  padding: 1px; /* Espaciado interno del encabezado */
+  text-align: center; /* Alineación del texto en el centro */
+  top: -30; /* Coloca el encabezado en la parte superior de la página */
+  left: 0; /* Coloca el encabezado en el lado izquierdo de la página */
+  right: 0; /* Coloca el encabezado en el lado derecho de la página */
+
+
+}
+
+
+
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(6, 2, 240, 0.884);
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: rgb(128, 109, 3);
+    color: rgb(255, 217, 0);
+    text-align: center;
+    padding: 10px;
+}
+h1{
+  color:  #fff;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif
+}  
+h2{
+    color: white;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 15px;
+    
+}
+p{
+    margin-left: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+        .box{
+            color: white;
+            position: absolute;
+            top: 55%;
+            left: 37%;
+            margin-left: 15px;
+            background-color: silver;
+            padding: 15px;
+            border-radius: 20px;
+            width: 20%;
+        }  
+      
+        legend{
+            border: 1px solid rgb(255, 217, 0);
+            padding: 20px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            border-radius: 15px;
+        } 
+        .inputbox{
+            position: relative;
+        }
+        .inputUser{
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+        .labelInput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5px;
+            color: black;
+        }
+        .inputUser:focus ~ .labelInput,
+        .inputUser:valid~ .labelInput{
+           top: -20px; 
+           font-size: 12px;
+           color: dodgerblue;
+        }
+        #data_coleta{
+            border: none;
+            padding: 8px;
+            border-radius: 10px;
+            outline: none;
+            font-size: 15px;
+        }
+        #submit{
+            background-image: linear-gradient(to right,rgb(49, 0, 128),rgb(13, 13, 214));
+            width: 100%;
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+
+        }
+        #submit:hover{
+            background-image: linear-gradient(to left, rgb(2, 255, 65),rgb(91, 235, 146));
+          }
+      
+    
+        footer {
+            background-color: rgb(128, 109, 3);
+
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            bottom: 0;
+            width: 100%;
+            margin-top: 900px;
+            position: relative;
+        
+        }
+
+        p{
+            color: black;
+        }
+
+        h1{
+
+            text-align: left;
+            color: rgb(4, 0, 255);
+
+        }
+
+        .logo{
+          
+            display: flex;
+            
+            
+          
+}
+
+.logo img{
+    width: 130px;
+    height: auto;
+    margin-top: 5px;
+}
+        #Data_de_Nascimento{
+
+            color: black;
+        }
+
+b{
+
+    color: black;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    margin-left: 800px;
+    margin-top: -70px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+
+ul li a:hover{
+
+background-image:to left, black, rgba(182, 182, 182, 0.212);
+}
